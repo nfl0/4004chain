@@ -1,5 +1,0 @@
-[run]
-include =
-	*pyntel4004*
-omit =
-	*test*
