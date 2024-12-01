@@ -1,0 +1,20 @@
+# Configuration for Pyntel4004-cli.
+
+title = "Configuration file for example2.asm"
+
+[asm]
+input = "example2.asm"
+output = "example2"
+type = ["BIN", "H"]
+exec = true
+monitor = true
+quiet = true
+
+[dis]
+object = "examples/example2.obj"
+inst = 6
+labels = true
+
+[exe]
+object = "examples/example2.obj"
+quiet = true
