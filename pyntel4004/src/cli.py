@@ -177,7 +177,7 @@ def exe(object, quiet, config):
         quiet = check_quiet(quiet, configuration)
     chip = Processor()
     memory_space, _, _ = retrieve(object, chip, quiet)
-    execute(chip, memory_space, 1, False, quiet, chip.OPERATIONS)
+    execute(chip, memory_space, 0, False, quiet, chip.OPERATIONS)
 
 
 if __name__ == '__main__':
