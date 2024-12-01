@@ -3,8 +3,8 @@
 title = "Configuration file for double_4bit.asm"
 
 [asm]
-input = "double_4bit.asm"
-output = "double_4bit"
+input = "examples/double_4bit.asm"
+output = "examples/double_4bit"
 type = ["BIN", "H"]
 exec = true
 monitor = true
