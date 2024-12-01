@@ -1,17 +1,17 @@
 # Configuration for Pyntel4004-cli.
 
-title = "Configuration file for example2.asm"
+title = "Configuration file for double_4bit.asm"
 
 [asm]
-input = "example2.asm"
-output = "example2"
+input = "double_4bit.asm"
+output = "double_4bit"
 type = ["BIN", "H"]
 exec = true
 monitor = true
 quiet = true
 
 [dis]
-object = "examples/example2.obj"
+object = "examples/double_4bit.obj"
 inst = 6
 labels = true
 
