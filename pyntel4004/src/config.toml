@@ -16,5 +16,5 @@ inst = 6
 labels = true
 
 [exe]
-object = "examples/example2.obj"
+object = "examples/double_4bit.obj"
 quiet = true
